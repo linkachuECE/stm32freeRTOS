@@ -297,7 +297,6 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 void printMessage1(void* params){
-
 	for(;;)
 		printf("%s\n", (char*)params);
 
@@ -305,7 +304,6 @@ void printMessage1(void* params){
 }
 
 void printMessage2(void* params){
-
 	for(;;)
 		printf("%s\n", (char*)params);
 
