@@ -91,10 +91,10 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  	status = xTaskCreate(printMessage1, "Task 1", 100, "Printing from task 1", 1, NULL);
+  	status = xTaskCreate(printMessage1, "Task 1", 1000, "Printing from task 1", 1, NULL);
   	configASSERT(status == pdPASS);
 
-  	status = xTaskCreate(printMessage2, "Task 2", 100, "Printing from task 2", 1, NULL);
+  	status = xTaskCreate(printMessage2, "Task 2", 1000, "Printing from task 2", 1, NULL);
   	configASSERT(status == pdPASS);
 
   	vTaskStartScheduler();
@@ -297,16 +297,21 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 void printMessage1(void* params){
-	for(;;)
+	for(;;){
 		printf("%s\n", (char*)params);
+		taskYIELD();
+		//vTaskDelay(pdMS_TO_TICKS(10));
+	}
 
 	vTaskDelete(NULL);
 }
 
 void printMessage2(void* params){
-	for(;;)
+	for(;;){
 		printf("%s\n", (char*)params);
-
+		taskYIELD();
+		//vTaskDelay(pdMS_TO_TICKS(20));
+	}
 	vTaskDelete(NULL);
 }
 /* USER CODE END 4 */

@@ -26,15 +26,15 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- /home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h \
- /home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
- /home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/projdefs.h \
- /home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/portable.h \
- /home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
- /home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
- /home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
- /home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/task.h \
- /home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/list.h
+ C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h \
+ C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/projdefs.h \
+ C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/portable.h \
+ C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
+ C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
+ C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/task.h \
+ C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/list.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -63,12 +63,12 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
-/home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h:
-/home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
-/home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/projdefs.h:
-/home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/portable.h:
-/home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
-/home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
-/home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
-/home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/task.h:
-/home/linkachu/Desktop/freeRTOSWorkspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/list.h:
+C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h:
+C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/projdefs.h:
+C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/portable.h:
+C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
+C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
+C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/task.h:
+C:/Users/egbra/Desktop/freeRTOS/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include/list.h:
